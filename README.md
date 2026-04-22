@@ -19,6 +19,13 @@ Traditional online tensor completion methods often suffer from severe performanc
 * **Side-Information Integration:** Bridges physical sensing data with purely mathematical tensor decomposition.
 * **Matrix-Inversion-Free Updates:** Optimized robust RLS update steps to ensure numerical stability and speed.
 
+## 📊 Dataset
+
+The real-world evaluations and experiments for this algorithm utilize the public **WAAM-ViD** (Wire Arc Additive Manufacturing Video) dataset. 
+
+You can access and download the original dataset here:  
+🔗 [WAAM-ViD Repository by IFRA-Cranfield](https://github.com/IFRA-Cranfield/WAAM-ViD)
+
 ## 📜 Acknowledgement & Attribution
 
 The core architecture of this codebase builds upon the highly efficient **OLSTEC** (Online Low-rank Tensor Subspace Tracking from Incomplete Data) algorithm developed by Hiroyuki Kasai. 
