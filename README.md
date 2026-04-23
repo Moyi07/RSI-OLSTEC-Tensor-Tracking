@@ -5,7 +5,7 @@
 
 ## 📖 Introduction
 
-**RSI-OLSTEC** is a robust and physics-guided extension of the online low-rank tensor subspace tracking framework. It is specifically designed to handle highly corrupted, incomplete streaming data (such as process monitoring videos in Wire Arc Additive Manufacturing, WAAM). 
+**RSI-OLSTEC** is a robust and physics-guided extension of the online low-rank tensor subspace tracking framework. It is specifically designed to handle highly corrupted, incomplete streaming data. 
 
 Traditional online tensor completion methods often suffer from severe performance degradation when facing impulsive noise (e.g., manufacturing spatter) or abrupt physical state mutations. To address these challenges, RSI-OLSTEC introduces two core mechanisms:
 
