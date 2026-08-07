@@ -1,0 +1,11 @@
+Algorithm,ValidRuns,FailedRuns,PendingRuns
+CP-WOPT (batch),50,0,0
+GROUSE,50,0,0
+GRASTA,50,0,0
+PETRELS,50,0,0
+TeCPSGD,50,0,0
+OLSTEC (lambda=0.70),50,0,0
+OLSTEC (lambda=0.80),50,0,0
+OLSTEC (lambda=0.90),50,0,0
+OLSTEC (lambda=0.99),50,0,0
+RSI-OLSTEC (full),50,0,0

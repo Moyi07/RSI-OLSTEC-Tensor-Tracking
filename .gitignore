@@ -1,0 +1,66 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# MATLAB temporary and local cache files
+*.asv
+*.m~
+*.slxc
+*.autosave
+
+# Formal experiment outputs are ignored by default.
+result/**
+
+# Allow Git to traverse experiment result directories.
+!result/
+!result/**/
+
+# Machine-readable formal results.
+!result/**/*.csv
+!result/**/*_stats.mat
+!result/**/R2_summary.mat
+
+# Formal figures.
+!result/**/*.pdf
+!result/**/*.eps
+!result/**/*.png
+!result/**/*.fig
+
+# Exclude checkpoints and non-public artifacts.
+result/**/*_checkpoint.mat
+result/**/MATLAB 命令行窗口.pdf
+result/R2/Fig_Running_Final.fig
+result/R2/Fig_MultiFrame_Matrix_R2.fig
+result/R3/Fig_MultiFrame_Matrix_R3.fig
+result/R3/R3_stats.mat
+result/**/*.mp4
+result/**/*.avi
+result/**/*.mov
+result/**/*.tmp
+result/**/*.part
+tmp_test/
+
+# Retain only the GRASTA files required by the reported experiments.
+benchmark/grasta.1.2.0/**
+!benchmark/grasta.1.2.0/
+!benchmark/grasta.1.2.0/admm_srp.m
+!benchmark/grasta.1.2.0/grasta_stream.m
+!benchmark/grasta.1.2.0/grasta_mod.m
+!benchmark/grasta.1.2.0/LICENSE.txt
+!benchmark/grasta.1.2.0/LGPL.txt
+!benchmark/grasta.1.2.0/GPL.txt
+
+# WAAM-ViD reference data are downloaded separately.
+dataset/WAMVID_metadata.csv
+dataset/video/*
+!dataset/video/.gitkeep
+!dataset/video/README.md
+
+# Legacy third-party toolboxes are installed locally and not redistributed.
+tool/tensor_toolbox_2.6/**
+tool/poblano_toolbox_1.1/**
+
+# Local documentation/build folders
+doc/
+
+!.gitignore

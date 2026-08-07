@@ -1,0 +1,2 @@
+Comparison,ValidPairs,WallTimeGeometricMeanRatio,WallTimeRatioCILower,WallTimeRatioCIUpper,CoreTimeGeometricMeanRatio,CoreTimeRatioCILower,CoreTimeRatioCIUpper,CILevel,BootstrapResamples,WallTimeBootstrapSeed,CoreTimeBootstrapSeed,CIMethod
+RSI_OLSTEC / OLSTEC_80,50,1.66978599083922,1.66285341770293,1.6766551055765,1.68678251042452,1.67959269214926,1.69401346641423,0.95,10000,20262729,20262730,percentile_bootstrap_paired_geometric_mean_time_ratio
